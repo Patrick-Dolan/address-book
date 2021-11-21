@@ -13,7 +13,7 @@ AddressBook.prototype.assignId = function() {
 };
 AddressBook.prototype.findContact = function(id) {
   if (this.contacts[id] != undefined) {
-    return this.contact[id];
+    return this.contacts[id];
   }
   return false;
 };
